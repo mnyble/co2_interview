@@ -18,7 +18,7 @@ namespace Nyble.Web.Co2.Services.TravelClassService
             };
         }
 
-        public Dictionary<TravelClass, double> GetShortHaulFromUkEmissions()
+        public Dictionary<TravelClass, double> GetUkShortHaulEmissions()
         {
             return new Dictionary<TravelClass, double>()
             {
@@ -28,7 +28,7 @@ namespace Nyble.Web.Co2.Services.TravelClassService
             };
         }
 
-        public Dictionary<TravelClass, double> GetLongHaulFromUkEmissions()
+        public Dictionary<TravelClass, double> GetUkLongHaulEmissions()
         {
             return new Dictionary<TravelClass, double>()
             {

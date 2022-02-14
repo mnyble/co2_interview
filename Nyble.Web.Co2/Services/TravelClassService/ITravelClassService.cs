@@ -7,8 +7,8 @@ namespace Nyble.Web.Co2.Services.TravelClassService
     {
         TravelClass GetDefaultTravelClass();
         Dictionary<TravelClass, double> GetDomesticEmissions();
-        Dictionary<TravelClass, double> GetShortHaulFromUkEmissions();
-        Dictionary<TravelClass, double> GetLongHaulFromUkEmissions();
+        Dictionary<TravelClass, double> GetUkShortHaulEmissions();
+        Dictionary<TravelClass, double> GetUkLongHaulEmissions();
         Dictionary<TravelClass, double> GetInternationalEmissions();
     }
 }

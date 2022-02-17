@@ -7,7 +7,8 @@ namespace Nyble.Web.Co2.Services.TravelClassService
     {
         public TravelClass GetDefaultTravelClass()
         {
-            return TravelClass.AveragePassenger;
+            //return TravelClass.AveragePassenger;
+            return TravelClass.PremiumEconomyClass;
         }
 
         public Dictionary<TravelClass, double> GetDomesticEmissions()

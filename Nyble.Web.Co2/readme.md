@@ -1,6 +1,8 @@
 ### **Task**
 
-Create and endpoint that calculates CO2 emissions for travel between two airports. The endpoint should take in two IATA codes and return the origin and destination airport objects + the co2 emissions. The endpoint should optionally take in a flight class - if no flight class specified then fallback on the default class (see the ITravelClassService)
+Create and endpoint that calculates CO2 emissions for travel between two airports. The endpoint should take in two IATA codes and return the origin and destination 
+airport objects + the co2 emissions. 
+The endpoint should optionally take in a flight class - if no flight class specified then fallback on the default class (see the ITravelClassService)
 
 The airport data is in the Data/airports.json file.
 

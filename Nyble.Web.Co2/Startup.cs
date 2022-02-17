@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Nyble.Web.Co2.Services.AirportService;
+using Nyble.Web.Co2.Services.DistanceService;
+using Nyble.Web.Co2.Services.TravelClassService;
 
 namespace Nyble.Web.Co2
 {
@@ -25,6 +28,9 @@ namespace Nyble.Web.Co2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddTransient<TravelClassService>();
+            services.AddTransient<AirportService>();
+            services.AddTransient<DistanceService>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
